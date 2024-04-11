@@ -15,7 +15,7 @@ import Signup from './components/Signup.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Signin />,
+    element: <Root />,
     children: [
       {
         path: "/",
